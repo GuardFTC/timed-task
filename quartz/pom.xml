@@ -6,7 +6,6 @@
         <groupId>com.ftc</groupId>
         <artifactId>timed-task</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>quartz</artifactId>

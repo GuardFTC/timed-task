@@ -1,0 +1,14 @@
+#server配置
+server:
+  port: 8082
+
+#xxl-job配置
+xxl-job:
+  accessToken: default_token
+  admin-addresses: http://localhost:8081/xxl-job-admin
+  executor-app-name: custom-executor
+  executor-address: ''
+  executor-ip: ''
+  executor-port: 9992
+  executor-log-path: C:\Users\86176\Desktop\logs\xxl-job\executor\custom
+  executor-log-retention-days: 30
