@@ -26,6 +26,7 @@
         <guava.version>31.1-jre</guava.version>
         <xxl-job-core.version>2.3.0</xxl-job-core.version>
         <disruptor.version>3.4.4</disruptor.version>
+        <powerjob.version>4.3.0</powerjob.version>
     </properties>
 
     <dependencyManagement>
@@ -75,6 +76,13 @@
                 <version>${guava.version}</version>
             </dependency>
 
+            <!-- log4j2依赖 -->
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>${disruptor.version}</version>
+            </dependency>
+
             <!--xxl-job-core依赖 -->
             <dependency>
                 <groupId>com.xuxueli</groupId>
@@ -82,11 +90,11 @@
                 <version>${xxl-job-core.version}</version>
             </dependency>
 
-            <!-- log4j2依赖 -->
+            <!--power-job依赖-->
             <dependency>
-                <groupId>com.lmax</groupId>
-                <artifactId>disruptor</artifactId>
-                <version>${disruptor.version}</version>
+                <groupId>tech.powerjob</groupId>
+                <artifactId>powerjob-worker-spring-boot-starter</artifactId>
+                <version>${powerjob.version}</version>
             </dependency>
 
         </dependencies>

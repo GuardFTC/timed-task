@@ -1,0 +1,17 @@
+#server配置
+server:
+  port: 7771
+
+#power-job配置
+powerjob:
+  worker:
+    akka-port: 27777
+    app-name: Client
+    server-address: 127.0.0.1:7700
+    protocol: akka
+    store-strategy: disk
+    max-appended-wf-context-length: 4096
+    max-heavy-task-num: 64
+    max-lightweight-task-num: 1024
+    max-result-length: 4096
+

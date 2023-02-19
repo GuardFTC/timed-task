@@ -1,0 +1,9 @@
+#spring配置
+spring:
+  profiles:
+    active: dev4
+
+#日志配置
+logging:
+  config: classpath:log4j2-dev.xml
+
